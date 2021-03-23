@@ -33,7 +33,9 @@
 
 		<Exit root>
 	./configure -> <Check the documentation to set the flags you need>.
+		./configure --with-device=ch3 --disable-fortran
 	make
+
 	make install
 
 	*If there are errors when compiling:
