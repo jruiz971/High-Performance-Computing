@@ -19,7 +19,7 @@
 
 	- Identify the message handler:
 		> hyra -> Launch processes using daemons (for clusters).
-		> gfork -> All the processes on a node
+		 gfork -> All the processes on a node
 	- Download the tar we are going to install
 	- Read the manual identifying to install the handler we need, as well as the compilers. 
 	- gunzip
@@ -31,8 +31,8 @@
 		- swapoff -a
 		- swapon -a
 
-		<Exit root>
-	- ./configure -> <Check the documentation to set the flags you need>.
+		**Exit root**
+	- ./configure  _Check the documentation to set the flags you need_
 		> ./configure --with-device=ch3 --disable-fortran
 	- make
 
