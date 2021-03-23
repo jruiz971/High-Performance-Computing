@@ -18,7 +18,7 @@
 5. Outline the steps to install the MPI library and explain the differences in the message handler. 
 
 	- Identify the message handler:
-		> - hyra -> Launch processes using daemons (for clusters).
+		 - hyra -> Launch processes using daemons (for clusters).
 		 - gfork -> All the processes on a node
 	- Download the tar we are going to install
 	- Read the manual identifying to install the handler we need, as well as the compilers. 
@@ -32,7 +32,7 @@
 		- swapon -a
 
 		**Exit root**
-	- ./configure  _Check the documentation to set the flags you need_
+	- ./configure ->  _Check the documentation to set the flags you need_
 		> ./configure --with-device=ch3 --disable-fortran
 	- make
 
